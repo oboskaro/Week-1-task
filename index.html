@@ -10,18 +10,22 @@
     </head>
     <body>
         <form action="">
-            <label for="fullname">Fullname: </label>
-            <input type="text" name="fullname" id="fullname" required><br>
-            <label for="email">Email address: </label>
-            <input type="email" name="email" id="email" required><br>
-            <label for="number">Phone number: </label>
-            <input type="number" name="number" id="number" required><br>
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="male" value="male">
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female" value="female"><br>
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" required><br>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label for="fullname">Fullname: </label>
+                <input type="text" name="fullname" id="fullname" required><br>
+                <label for="email">Email address: </label>
+                <input type="email" name="email" id="email" required><br>
+                <label for="number">Phone number: </label>
+                <input type="number" name="number" id="number" required><br>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female"><br>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required>
+            </fieldset>
+            <br>
             <button type="submit" value="SUBMIT" onclick='alert("Submitted successfully")'>SUBMIT</button>
         </form>
     </body>
